@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "emilia",
-  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.",
+  "name": "EJTheBae",
+  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode. Used to display nicely my NFTs",
   "version": "0.3.9",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Edgar J San Martin using LekoArts <hello@lekoarts.de> theme",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-emilia",
   "scripts": {
