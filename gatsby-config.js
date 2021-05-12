@@ -6,13 +6,33 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitle: `EJTheBae`,
+    siteTitleAlt: `EJTheBae | Haus of NFTs`,
+    siteLanguage: `en`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `EJTheBae`,
+        location: `New England, USA`,
+        socialMedia: [
+          {
+            title: `Twitter`,
+            href: `https://twitter.com/ej_sanmartin`
+          },
+          {
+            title: `Instagram`,
+            href: `https://www.instagram.com/ej_sanmartin`
+          },
+          {
+            title: `Github`,
+            href: `https://github.com/ej-sanmartin`
+          }
+        ],
+        showThemeAuthor: 'false'
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -24,9 +44,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        name: `EJTheBae | Haus of NFTs`,
+        short_name: `EJTheBaeNFT`,
+        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Good place to hold my NFTs`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
